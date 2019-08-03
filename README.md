@@ -19,3 +19,5 @@
 `-novid -tickrate 128 -refresh 240 -high -threads 8 -fullscreen -language english -nojoy -nod3d9ex1 +cl_forcepreload 1`
 
 `-novid -tickrate 128 -refresh 240 -high -threads 8 -fullscreen -language english -nojoy`
+
+`-novid -tickrate 128 -refresh 240 -high -threads 8 -fullscreen -language english -nojoy -nod3d9ex1 +cl_forcepreload 1 +rate 198000 +mat_queue_mode -2`
