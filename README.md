@@ -26,7 +26,7 @@
 
 # Stardew Valley
 
-# Dinheiro do boteco
+## Dinheiro do boteco
 
 ### Criar fazendo com o nome abaixo
 
