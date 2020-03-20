@@ -33,16 +33,3 @@
 ```sh
 -novid -threads 16 -high -tickrate 128 -refresh 240 +mat_queue_mode -2 +fps_max 300 +r_dynamic 0 +cl_forcepreload 1
 ```
-
-
-# Stardew Valley
-
-## Dinheiro do boteco
-
-### Criar fazendo com o nome abaixo
-
-Nome: [163] Nome Fazenda
-Fazenda: 8
-Coisa Favorita: [439] Chocolat
-
-Esperar as 10:00 para falar com o dono da mercearia e ganhar 1 peixe que vale 5.000 ouros, depois ir ao bar e ficar falando com o Gus
