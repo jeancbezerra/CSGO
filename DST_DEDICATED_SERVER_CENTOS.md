@@ -1,5 +1,4 @@
-
-# DST_DEDICATED_SERVER.md
+# DST_DEDICATED_SERVER_CENTOS.md
 
 ```sh
 sudo yum -y update
