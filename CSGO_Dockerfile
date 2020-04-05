@@ -1,0 +1,23 @@
+FROM centos:7.7.1908
+
+ENV USER steam
+ENV HOME /home/$USER
+ENV SERVER $HOME/csgo_server
+
+RUN yum -y update
+RUN yum -y install lib32gcc1 curl net-tools lib32stdc++6 locales wget tmux screen glibc-devel libgcc libcurl-devel mlocate sudo glibc.i686 libstdc++.i686 gnutls-devel
+
+RUN useradd $USER
+RUN usermod -aG wheel $USER
+RUN echo '$USER' | passwd --stdin $USER
+RUN su - $USER
+RUN chown -R $USER:$USER $HOME
+RUN mkdir -p $HOME/Steam
+WORKDIR $HOME/Steam
+RUN pwd
+RUN curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" | tar zxvf -
+RUN ls -lha
+RUN ./steamcmd.sh +login anonymous +force_install_dir ./csgo_dedicated_server +app_update 740 validate +quit
+
+EXPOSE 27015/udp
+EXPOSE 27015/tcp
