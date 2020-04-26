@@ -33,3 +33,8 @@
 ```sh
 -novid -threads 16 -high -tickrate 128 -refresh 240 +mat_queue_mode -2 +fps_max 300 +r_dynamic 0 +cl_forcepreload 1
 ```
+
+### Comandos adicionais
+```sh
+net_graphproportionalfont 0
+```
