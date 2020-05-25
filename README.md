@@ -43,6 +43,7 @@ net_graphproportionalfont 0
 
 ```sh
 training_aim_csgo2
+Aim Course 2
 ```
 
 ### Treino de movimentacao
