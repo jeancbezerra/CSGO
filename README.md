@@ -38,3 +38,15 @@
 ```sh
 net_graphproportionalfont 0
 ```
+
+### Mapas de treino de mira
+
+```sh
+training_aim_csgo2
+```
+
+### Treino de movimentacao
+
+```sh
+Jumps Training
+```
