@@ -36,7 +36,7 @@
 ### Atual Jean
 
 ```sh
--novid -tickrate 128 -high -threads "16" +fps_max 0 +cl_showfps 1 +cl_interp 0 +cl_interp_ratio 1 +rate 128000 +cl_updaterate 128 +cl_cmdrate 128 +mat_queue_mode 2 -freq 240 -refresh 240 +cl_forcepreload 1 -nod3d9ex -nojoy
+-novid -tickrate 128 -high -threads 16 +fps_max 0 +cl_showfps 1 +cl_interp 0 +cl_interp_ratio 1 +rate 128000 +cl_updaterate 128 +cl_cmdrate 128 +mat_queue_mode 2 -freq 240 -refresh 240 +cl_forcepreload 1 -nod3d9ex -nojoy
 ```
 
 
