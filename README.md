@@ -57,3 +57,9 @@ Aim Course 2
 ```sh
 Jumps Training
 ```
+
+
+### Template de denuncias
+```sh
+Este usuário ultiliza trapaça no jogo CSGO. O mesmo usou AIMBOT, que é mira automatic ca. Durante a partida o mesmo matava os inimigos de HS (headshot) correndo. Na partida ele obteve uma taxa de 75% de HS. Por isso achei super estranho. Fui verificar o perfil do usuário e o mesmo já tem vários xingamentos por uso de hack. Você pode ver no perfil dele da steam. Abaixo segue a prova FINAL que ele está usando trapaça. Link da partida que o mesmo trapaceou.
+```
