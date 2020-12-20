@@ -36,13 +36,13 @@
 ### Atual Jean
 
 ```sh
+-novid -nojoy -high -threads 12 -fullscreen -width 1920 -height 1080 -freq 240 -refresh 240 -tickrate 128 -language English -nod3d9ex +fps_max 0 +rate 128000 +cl_interp 0 +cl_interp_ratio 1 +cl_updaterate 128 +cl_cmdrate 128 +cl_forcepreload 1 +mat_queue_mode 2
+```
+
+BACKUP
+```sh
 -novid -tickrate 128 -high -threads 16 +fps_max 0 +cl_showfps 1 +cl_interp 0 +cl_interp_ratio 1 +rate 128000 +cl_updaterate 128 +cl_cmdrate 128 +mat_queue_mode 2 -freq 240 -refresh 240 +cl_forcepreload 1 -nod3d9ex -nojoy
 ```
-
-```sh
--freq 240 -novid -console -high -threads 16 -noaafonts -processheap +fps_max_menu 999 +fps_max 999 -tickrate 128 +cl_cmdrate 128 +cl_updaterate 128 +cl_interp_ratio 1 +cl_interp 0 +mat_queue_mode 2 +cl_forcepreload 1 +cl_lagcompensation 1
-```
-
 
 ### Comandos adicionais
 ```sh
